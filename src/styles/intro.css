@@ -1,0 +1,32 @@
+.book{
+    height: 313px;
+    width: 433.5px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 76.5vh;
+}
+.introsub1{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+.introsub2{
+    width: 50%;
+}
+.heading{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom:40px;
+}
+.Read{
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(255, 138, 96) ;
+}

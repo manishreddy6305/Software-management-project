@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+.logo{
+    height: 180px;
+    width: 180px;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+.content{
+    font-size: 18px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.one:hover{
+    border-bottom: 2px solid orangered;
+    color: grey;
+}
+.two{
+    border-radius: 3px;
+    background-color: rgb(255, 138, 96);
+    color: white;
+    transition: background-color 0.5s ease-in;
+}
+.two:hover{
+    background-color: rgb(32, 167, 122);
+}
+.navbar{
+   -webkit-box-shadow: 20px 20px 20px #FC0;
+    -moz-box-shadow:    20px 20px 20px #FC0;
+    box-shadow:         0px 0px 10px rgb(151, 150, 147);
+}

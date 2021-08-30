@@ -1,0 +1,17 @@
+.title{
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    margin: 0px;
+}
+
+.hr{
+    width: 55px;
+    float: left;
+    height: 2px;
+    background-color: rgb(255, 138, 96);
+    border: none;
+    margin-top: 8px;
+}

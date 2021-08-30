@@ -1,0 +1,52 @@
+body{
+    margin:0px;
+}
+.Contact{
+    background-color: rgb(86, 88, 97);
+    
+    font-family: 'Noto Sans', sans-serif;
+}
+.w,.p{
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+.w{
+    color: rgb(255, 138, 96);
+    font-size: 50px;
+    font-weight:300 ;
+}
+.c{
+    padding-top: 60px;
+}
+.l{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+#icon{
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    color: rgb(255, 138, 96);
+}
+i{
+    font-size: 40px;
+    padding: 20px;
+}
+.company{
+    text-decoration: none;
+    
+    color: rgb(255, 138, 96);
+}

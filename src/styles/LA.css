@@ -1,0 +1,14 @@
+.La{
+    margin: 50px;
+}
+.card{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.pic:hover{
+    transform: scale(1.01);
+}

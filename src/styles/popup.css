@@ -1,0 +1,32 @@
+.pop{
+    display:none;
+    z-index: 10000;
+}
+.blur{
+    width: 25%;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    height: 200px;
+    border: 1.75px solid  orangered;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    animation: pop 0.5s linear forwards;
+    z-index: 10000;
+}
+.new
+{
+    color:orangered;
+    font-size: 25px;
+    margin: 0px;   
+    font-family:sans-serif;
+}
+@keyframes pop {
+    100%{
+       top: 30%;
+    }
+}
